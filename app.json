@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "MoviesApp",
+    "slug": "MoviesApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "movies",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zezx.movieapp",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2679500a-d3c6-423b-bf15-700680921294"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2679500a-d3c6-423b-bf15-700680921294"
+    }
+  }
+}
